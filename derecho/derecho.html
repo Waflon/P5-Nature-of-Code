@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="DabG.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="update();">
+    <label for="titular">Titular: </label>
+    <input id="idTitular" name="titular" onchange="update();" value="El derecho a la vida"><br>
+    <label for="destinatario">Destinatario: </label>
+    <input id="idDestinatario" name="destinatario" onchange="update();" value="Estado"><br>
+    <label for="objeto">Objeto: </label>
+    <input id="idObjeto" name="objeto" onchange="update();" value = "la obligación de no matar arbitrariamente"><br><br>
+    <div>Relacion</div>
+    <div id="idTexto"></div>
+</body>
+</html>
